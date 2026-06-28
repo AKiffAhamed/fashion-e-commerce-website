@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="">  
+    <nav className="sticky top-0 z-50 bg-white">  
     
       {/* desktop nav bar */}
       <div className="flex items-center py-4 px-6">
