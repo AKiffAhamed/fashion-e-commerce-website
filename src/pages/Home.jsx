@@ -1,5 +1,6 @@
 import React from "react";
 import heroImage from "./../assets/Hero.jpeg";
+import Card from "../components/card";
 
 function Home() {
   return (
@@ -39,6 +40,20 @@ function Home() {
           >
             Shop Now
           </button>
+        </div>
+      </section>
+
+      {/*New Arrivals*/}
+      <section className="m-2">
+        {/* TITLE */}
+        <h1 className="text-2xl font-bold text-center mb-6">New Arrivals</h1>
+
+        {/* CARDS */}
+        <div className="flex flex-col md:flex-row justify-evenly gap-6 py-5">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </section>
     </div>
